@@ -137,5 +137,14 @@ const memoryArray = [
     // Making the cards in a random order  (http.https://javascript.info///
 memoryArray.sort(() => 0.5 - Math.random())
 
+// Attempt At fisher Yates Shuffle
+//for(let i = 0; 1 < memoryArray.length; 1++) {
+   // let temp = memoryArray[i];
+   // let r = Math.floor(Math.random() * memoryArray.length);
+//memoryArray[i] = memoryArray[r];
+  //  memoryArray[r] = temp;
+//}
+
+
 // Checking array random functionality--------- ALL GOOD!
 console.log(memoryArray)
