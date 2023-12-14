@@ -132,3 +132,7 @@ const memoryArray = [
         img: 'assets/images/trauma-3.jpg',
     }
 ]
+
+   
+    // checking if array if funtional-----=  ALL GOOD!
+        console.log(memoryArray);
