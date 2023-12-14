@@ -137,3 +137,5 @@ const memoryArray = [
     // Making the cards in a random order  (http.https://javascript.info///
 memoryArray.sort(() => 0.5 - Math.random())
 
+// Checking array random functionality--------- ALL GOOD!
+console.log(memoryArray)
