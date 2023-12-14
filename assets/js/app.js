@@ -134,5 +134,6 @@ const memoryArray = [
 ]
 
    
-    // checking if array if funtional-----=  ALL GOOD!
-        console.log(memoryArray);
+    // Making the cards in a random order  (http.https://javascript.info///
+memoryArray.sort(() => 0.5 - Math.random())
+
