@@ -1,0 +1,187 @@
+/*Imported google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+/*Astericks wildcard selector to overide defalt styles by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+/* Hide Scrollbar*/
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/*Gerneral Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*project styles*/
+    font-family: "Roboto Mono", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+    font-family: "Roboto Mono", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+/*Header*/
+header {
+    background-color: #272b54;
+    color: #f6f7f2;
+    font-size: 20px;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 1px #272b54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 5vw;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: "Roboto Mono", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+#navbar {
+    font-size: 112%;
+    letter-spacing: 3.5px;
+    list-style-type: none;
+}
+
+nav {
+    position: absolute;
+    background-color: #272b54;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 1px #4d4f47;
+    display: none;
+    top: 100%;
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
+}
+
+#navbar-toggle {
+    display: none;
+}
+
+.navbar-toggle-label {
+    font-size: 3rem;
+}
+
+
+
+
+
+
+/*footer contact social media*/
+footer {
+    background-color: #272b54;
+    color: #f6f7f2;
+}
+
+.social {
+    color: #f6f7f2;
+}
+
+#online-community {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#online-community i {
+    font-size: 155%;
+    padding: 6%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*  Tablets and up */
+@media screen and (min-width: 768px) {
+
+    /* Hide Scrollbar*/
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+    #logo {
+        font-size: 3vw;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 100rem;
+        padding-right: 1rem;
+        flex-basis: fit-content;
+    }
+
+    /*give navbar better spacing*/
+    li {
+        width: fit-content;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar>li {
+        padding-left: 1rem;
+    }
+
+    .navbar-toggle-label {
+        display: none;
+    }
+
+    /*body, main, coping text*/
+    main {
+        margin: 0;
+    }
+
+
+
+   
+}
+
+
+
+
+/*laptops and up*/
+@media screen and (min-width: 992px) {
+
+    .ready:hover {
+        text-decoration: underline;
+    }
+
+
+    }
