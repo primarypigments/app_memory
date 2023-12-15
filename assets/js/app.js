@@ -148,3 +148,6 @@ memoryArray.sort(() => 0.5 - Math.random())
 
 // Checking array random functionality--------- ALL GOOD!
 console.log(memoryArray)
+
+const frameworkHtml = document.querySelectorA('#framework')
+console.log(frameworkHtml) 
